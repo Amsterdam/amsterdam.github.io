@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{% if page.title %}{{ page.title }} |{% else %}{% endif %} Amsterdam Open Source</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/github-markdown.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+  <link rel="icon" href="{{ site.baseurl }}/assets/favicon.png">
+</head>
+
+<body>
+
+  <header>
+
+    <a href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/logo.svg" alt="City of Amsterdam Open Source" id="city-logo">
+    </a>
+
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/projects/">Projects</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/guides/">Guides</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+
+    {{ content }}
+
+  </main>
+
+  <footer>
+    <article>
+      <h3>
+          City&nbsp;of Amsterdam Open&nbsp;Source
+      </h3>
+      <ul>
+        <li>
+          <a href="{{ site.baseurl }}/">Home</a>
+        </li>
+      </ul>
+      <p>Thanks for contributing!</p>
+    </article>
+    <article>
+      <h3>
+        <a href="{{ site.baseurl }}/projects/">Projects</a>
+      </h3>
+      <ul>
+          {% for page in site.pages %} {% if page.abstract and page.title and page.name != "index.md" %}
+          <li>
+              <a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">{{ page.title }}</a>
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+    </article>
+    <article>
+      <h3>
+        <a href="{{ site.baseurl }}/guides/">Guides</a>
+      </h3>
+      <ul>
+        {% for page in site.pages %} {% if page.explains and page.title and page.name != "index.md" %}
+        <li>
+          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </article>
+    <article>
+      <h3>
+        <a href="mailto:algemeen.ois@amsterdam.nl">Contact</a>
+      </h3>
+      <ul>
+        <li>
+          <a href="http://data.amsterdam.nl">data.amsterdam.nl</a>
+        </li>
+        <li>
+          <a href="http://github.com/amsterdam">GitHub</a>
+        </li>
+        <li>
+          <a href="mailto:algemeen.ois@amsterdam.nl">E-mail</a>
+        </li>
+      </ul>
+    </article>
+  </footer>
+
+</body>
+
+</html>

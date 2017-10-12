@@ -1,0 +1,26 @@
+--- 
+layout: wrapper
+---
+
+<article class="markdown-body">
+  {{ content }}
+</article>
+
+{% assign projects = site.pages | where: "layout", "projects" %}
+
+{% comment %} Don't display this section if there is only one result {% endcomment %}
+{% if projects[1] %}
+
+<h2 class="section-header"><a href=""><a href="{{ site.baseurl }}/projects/">All Projects</a></a></h2>
+
+<section class="cards">
+  {% for page in projects %} {% if page.name != "index.md" %}
+  <a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">
+    <h3>{{ page.title }}</h3>
+    <p>{{ page.abstract }}</p>
+    {% if page.link %}<small>{{ page.link }}</small>{% endif %}
+  </a>
+  {% endif %} {% endfor %}
+</section>
+
+{% endif %}

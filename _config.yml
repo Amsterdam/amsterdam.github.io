@@ -1,0 +1,12 @@
+defaults:
+  -
+    scope:
+      path: "guides"
+    values:
+      layout: "guides"
+  -
+    scope:
+      path: "projects"
+    values:
+      layout: "projects"
+include: [README.md,CONTRIBUTING.md]
