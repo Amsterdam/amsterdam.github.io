@@ -49,4 +49,4 @@ We typically respond to new pull requests within a few business days.
 
 ---
 
-For more information oh how to use and contribute to this project, please read the [README](README.md).
+For more information on how to use and contribute to this project, please read the [README](README.md).
