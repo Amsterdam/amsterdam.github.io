@@ -1,3 +1,8 @@
+---
+explains: How to contribute to this City of Amsterdam Open Source project
+layout: guides
+---
+
 # Contributing
 
 We – the maintainers of this project and the City of Amsterdam – value input, enjoy feedback and welcome improvements to our Open Source projects.
