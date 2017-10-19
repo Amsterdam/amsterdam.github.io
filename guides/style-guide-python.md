@@ -1,3 +1,6 @@
+---
+explains: The style guide to the way we code Python
+---
 
 # How we code Python
 
