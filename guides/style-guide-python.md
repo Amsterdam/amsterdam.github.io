@@ -1,7 +1,4 @@
 
-In general we try to follow the common community guidelines,
-including PEP-8 and PEP-257. But these don't cover everything
-important and we make a few exceptions.
 
 ## flake8
 
@@ -26,8 +23,10 @@ jobs=1
 Git hooks are great for fast and light-weight tests. Here's how you can setup
 your commit hooks for automated style checks. This assumes your project has a
 Makefile with a linter command named `check`:
+# How we code Python
 
     # .git/hooks/pre-commit
+A lot of the software we make at City of Amsterdam is written in Python.
 
     #!/bin/sh
     make check
@@ -38,6 +37,10 @@ for you to stay in the shell anyway.
 
 *TODO: consider also using the `flake8-pep257` and `flake8-print` plugins to
 automate more tests.*
+In general we try to follow the common community guidelines,
+including [PEP-8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) 
+and [PEP-257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/). But these 
+don't cover everything important to us, and in addition to that we have a few exceptions.
 
 ## Documentation
 
