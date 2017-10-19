@@ -24,3 +24,7 @@ These are some main points to review code on:
 - Tested: are there a minumal amount of health checks?
 - Healthy: Are common security mistakes checked?
 - Maintainable: could you maintain and bugfix the code you see?
+
+## Looks Good To Merge (LGTM)
+
+If the code looks good to merge to you you can let your collaborators know by mentioning `LGTM` in the Pull Request so that other contributors see that it has your sign of approval.
