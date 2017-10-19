@@ -62,23 +62,8 @@ First of all, do not use wildcard imports.
 
 Imports don't have to be in alphabetical order. It is however more or less of a convention that imports that are the furthest away from the current module in are the highest on top. 
 
-## Libraries
 Standard library imports like `os`, `system` etc. go on top. Then come imports from installed packages; `django`, `celery` etc. and finally that belong to the current project.
 
-Before adding a new library, consider the long-term maintenance cost and risk
-of abandoned projects. It's often easier to copy code into our project or write
-it ourselves. If we can't use a stable and recent PyPi release, the threshold
-for time-saved should be even higher.
-
-We have agreed that the following Python libraries are definitely worth it:
-
-- Django
-- Django REST Framework
-- Flask
-- Swagger / OpenAPI
-- psycopg2
-- elasticsearch
-- elasticsearch-dsl
 We prefer one line for one import.
 
 ## Naming
