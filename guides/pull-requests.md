@@ -8,7 +8,7 @@ Pull requests (as they are named on GitHub) or Merge requests (as they are named
 
 For a basic guide on how PRs work read GitHub's excelent guide [Using pull requests](https://help.github.com/articles/using-pull-requests/.)
 
-## What needs to be reviewed with a PR
+## How to review a PR
 
 The goal of a PR is to discuss proposed changes to the code and check whether it is good enough to merge.
 
@@ -24,6 +24,8 @@ These are some main points to review code on:
 - Tested: are there a minumal amount of health checks?
 - Healthy: Are common security mistakes checked?
 - Maintainable: could you maintain and bugfix the code you see?
+
+If you see something that you think should be different, please describe what should change and why it should. If possible try to reference to documentation, the style guide or these guides as much as you can.
 
 ## Looks Good To Merge (LGTM)
 
