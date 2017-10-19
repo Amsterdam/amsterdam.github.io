@@ -3,9 +3,6 @@
 
 A lot of the software we make at City of Amsterdam is written in Python.
 
-
-*TODO: consider also using the `flake8-pep257` and `flake8-print` plugins to
-automate more tests.*
 In general we try to follow the common community guidelines,
 including [PEP-8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) 
 and [PEP-257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/). But these 
