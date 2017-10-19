@@ -42,7 +42,7 @@ including [PEP-8: Style Guide for Python Code](https://www.python.org/dev/peps/p
 and [PEP-257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/). But these 
 don't cover everything important to us, and in addition to that we have a few exceptions.
 
-## Documentation
+## Documenting your code
 
 ### class docstrings
 
@@ -87,8 +87,6 @@ def complex_function(abc):
     """
     pass
 ```
-
-### Blank lines
 
 Don't include unnecessary blank lines around the docstrings.
 
