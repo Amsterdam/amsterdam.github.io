@@ -1,39 +1,8 @@
 
-
-## flake8
-
-Every commit should pass an automated flake8 check with the plugins `pep8`,
-`mccabe`, and `pep8-naming` and this configuration:
-
-```ini
-# one section of flake.cfg
-
-[flake8]
-#ignore=E501,E225,E261,W391,E241,E203,W292,W391
-
-exclude=.git,migrations,docs,scripts
-max-complexity=8
-max-line-length = 119
-statistics=True
-jobs=1
-```
-
-### Commit hooks
-
-Git hooks are great for fast and light-weight tests. Here's how you can setup
-your commit hooks for automated style checks. This assumes your project has a
-Makefile with a linter command named `check`:
 # How we code Python
 
-    # .git/hooks/pre-commit
 A lot of the software we make at City of Amsterdam is written in Python.
 
-    #!/bin/sh
-    make check
-
-Make sure that your virtualenv containing flake8 is activated when committing.
-Also note that this probably won't work form within Sourcetree, but it's better
-for you to stay in the shell anyway.
 
 *TODO: consider also using the `flake8-pep257` and `flake8-print` plugins to
 automate more tests.*
@@ -125,5 +94,32 @@ All new behaviors should be accompanied by new tests. If a behavior is changed a
 
 We usually use Mock and py.test.
 
+## Using `flake8` for style guide enforcement
 
+We use `flake8` in order to enforce a uniform code style. Every commit should pass an automated flake8 check with the plugins `pep8`, `mccabe`, and `pep8-naming` and this configuration:
 
+```ini
+# one section of flake.cfg
+
+[flake8]
+#ignore=E501,E225,E261,W391,E241,E203,W292,W391
+
+exclude=.git,migrations,docs,scripts
+max-complexity=8
+max-line-length = 119
+statistics=True
+jobs=1
+```
+
+### Commit hooks
+
+Git hooks are great for fast and light-weight tests. Here's how you can setup
+your commit hooks for automated style checks. This assumes your project has a
+Makefile with a linter command named `check`:
+
+    # .git/hooks/pre-commit
+
+    #!/bin/sh
+    make check
+
+Make sure that your virtualenv containing flake8 is activated when committing.
