@@ -121,13 +121,9 @@ We prefer one line for one import.
 
 ## Testing
 
-- new behaviors should be accompanied by new tests
-- if a behavior is changed and no tests break, that indicates
-  an important hole in our coverage.
-- tests should work without internet access or a local database installed
+All new behaviors should be accompanied by new tests. If a behavior is changed and no tests break, that indicates an important hole in our coverage. Tests should work without internet access or a local database installed
 
-Use the following testing libraries:
+We usually use Mock and py.test.
 
-- Mock
-- py.test
+
 
