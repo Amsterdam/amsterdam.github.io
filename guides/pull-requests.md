@@ -12,7 +12,7 @@ When you make a Pull Request, make sure the code you are suggesting and tidy, as
 
 Try to stay within the scope of what you are trying to fix. PRs with other fixes inside of them—even tiny corrections of typos—often make it hard to effectively review them. If you do want to fix a typo, make a new PR for that. It will surely be accepted and merged in no-time.
 
-Additionally, when making new commits to your branch, try to be clear about what you've done. Give the reviewer an idea of the changes you've introduced, and why.
+Additionally, when making new commits to your branch, try to be clear about what you've done. Give the reviewer an idea of the changes you've introduced, and why. This will also make it easy for future contributors to understand your changes.
 
 For a basic guide on how PRs work read GitHub's excelent guide [Using pull requests](https://help.github.com/articles/using-pull-requests/).
 
