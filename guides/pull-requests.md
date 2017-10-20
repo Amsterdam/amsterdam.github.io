@@ -14,7 +14,7 @@ Try to stay within the scope of what you are trying to fix. PRs with other fixes
 
 Additionally, when making new commits to your branch, try to be clear about what you've done. Give the reviewer an idea of the changes you've introduced, and why. This will also make it easy for future contributors to understand your changes.
 
-For a basic guide on how PRs work read GitHub's excelent guide [Using pull requests](https://help.github.com/articles/using-pull-requests/).
+For a basic guide on how PRs work read GitHub's excelent guide [Using Pull Requests](https://help.github.com/articles/using-pull-requests/).
 
 ## How to review a PR
 
