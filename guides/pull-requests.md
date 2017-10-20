@@ -6,6 +6,8 @@ explains: How to suggest changes and how to review them
 
 Pull requests (as they are named on GitHub) or Merge requests (as they are named on GitLab) are proposed changes to a codebase. They are submitted by a contributor to a project and accepted or rejected by a repository's maintainers. Pull requests each have their own discussion forum enabling a collaborative review of the committed code.
 
+When you make a Pull Request, make sure the code you are suggesting and tidy, as it will be reviewed by the project maintainers line-by-line. Try to stay within the scope of what you are trying to fix. Pull requests with other fixes inside of them—even tiny corrections of typos—often make it hard to effectively review them. If you do want to fix a typo, make a new pull request for that. It will surely be accepted and merged in no-time.
+
 For a basic guide on how PRs work read GitHub's excelent guide [Using pull requests](https://help.github.com/articles/using-pull-requests/).
 
 ## How to review a PR
