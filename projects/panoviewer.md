@@ -6,7 +6,7 @@ abstract: JavaScript library for 360° street views of Amsterdam, Almere and Ams
 
 [![PanoViewer Demo](../images/panoviewer-amsterdam.png)](https://panoviewer.data.amsterdam.nl/demo/)
 
-A javascript library to display interactive street view 360° panorama images of Amsterdam, Almere and Amstelveen and navigate between them.
+A javascript library to display interactive 360° street view panorama images of Amsterdam, Almere and Amstelveen and navigate between them.
 
 For more information on how to use, check out the [GitHub Repository: Amsterdam/PanoViewer](https://github.com/Amsterdam/PanoViewer).
 
