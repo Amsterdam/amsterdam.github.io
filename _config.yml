@@ -10,3 +10,4 @@ defaults:
     values:
       layout: "projects"
 include: [README.md,CONTRIBUTING.md]
+permalink: pretty
