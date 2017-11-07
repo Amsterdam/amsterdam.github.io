@@ -21,8 +21,8 @@ Open Panorama does not attach any cameras to your car and does not drive around 
 1. **Import panoramas**: from an ObjectStore including metadata CSVs into a database.
 2. **Normalisation**: images are edited to face northwards and have a straight horizon.
 3. **Image recognition and blurring**: finding sensitive data like people and licence plates and blurring those. With Docker Swarm cluster support.
-4. **Tiling**: Making tiles out of the blurred 360° panorama images so they can be served with the API.
-5. **Serving on an API**: An API that serves the locations and metadata over an OGC (WMS/WFS) server and tiles to users over a REST API.
+4. **Create tiles**: for faster loading and less client-intensive use in viewers (like our own PanoViewer, and/or Marzipano and other viewers) the blurred 360° panorama images are reprojected and turned into tiles.
+5. **Serving over APIs**: A server that provides API endpoints in Rest and OGC (WMS/WFS) for the locations, metadata and the tiles. As well as a REST-API to get a thumbnail for a certain location.
 
 ## Using the Panoramas
 
