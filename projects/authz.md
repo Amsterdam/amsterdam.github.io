@@ -15,6 +15,12 @@ This service:
 
 For more information on how to use, check out the [GitHub repository: Amsterdam/authz](https://github.com/Amsterdam/authz) or the [Documentation on GoDoc](https://godoc.org/github.com/Amsterdam/authz/oauth2).
 
+![OAuth Gopher](../images/oauth2-gopher@0.25x.png)
+
 ## Admin backend
 
 Alongside the Authz service we created an [Admin backend (GitHub repository: Amsterdam/authz_admin)](https://github.com/Amsterdam/authz_admin) to map OAuth 2.0 scopes to profiles that map to roles provided by your Identity Provider.
+
+---
+
+<small>The Gopher OAuth illustration is based on the Go Gopher by [Takuya Ueda](https://twitter.com/tenntenn) ([CC-BY](http://creativecommons.org/licenses/by/3.0/deed.ja)) and the OAuth logo by [Chris Messina](https://www.flickr.com/photos/factoryjoe/1416054260/) ([CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)).</small>
