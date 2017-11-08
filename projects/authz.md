@@ -4,11 +4,14 @@ abstract: OAuth 2.0 authorization service written in Go
 
 # Authz
 
-An implementation of the [OAuth 2.0 implicit authorization flow (RFC6749)](https://tools.ietf.org/html/rfc6749#section-1.3.2) as a HTTP service written in Go.
+An [OAuth 2.0](https://tools.ietf.org/html/rfc6749) compatible authorization service written in Go.
 
 This service:
-* creates signed JSON Web Token (JWS) access tokens to be used what RFC6749 calls resource servers
-* Can use in-memory state storage or be connected to external storage such as Redis
+
+* Implements the implicit flow as described in [RFC6749 section 4.2](https://tools.ietf.org/html/rfc6749#section-4.2)
+* Uses JSON Web Keys ([RFC7517](https://tools.ietf.org/html/rfc7517)) for key management
+* Creates JSON Web Tokens ([RFC7519](https://tools.ietf.org/html/rfc7519)) using HMAC or ECDSA (HS256, HS384, HS512, ES256, ES384, ES512)
+* Provides interfaces for identity providers, state storage (with implementations for single node in-memory storage and Redis), authorization providers (to map users to scopes) and client registries.
 
 For more information on how to use, check out the [GitHub repository: Amsterdam/authz](https://github.com/Amsterdam/authz) or the [Documentation on GoDoc](https://godoc.org/github.com/Amsterdam/authz/oauth2).
 
