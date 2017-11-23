@@ -74,3 +74,4 @@ Depending on your project you might also need to explain more about:
 * [18Fs Open Source Guide on `README`s](https://open-source-guide.18f.gov/making-readmes-readable/)
 * [Jesse Luotos `README` best practices](https://github.com/jehna/readme-best-practices/)
 * [`README`s for GOV.UK applications](https://docs.publishing.service.gov.uk/manual/readmes.html)
+* [How to write a good `README` on StackOverflow](https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme)
