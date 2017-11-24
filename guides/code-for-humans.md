@@ -5,6 +5,30 @@ explains: What we should think of when writing code so the most important comput
 # How to code for humans
 
 ## Human coding guidelines
+
+### Single Responsibility Principle
+
+* functions should do 1 thing, and do it well
+* functions should be around max ~10-15 lines
+
+Tip: Describe every function in a _docstring_, if you use “and” in your description you know it does two things and needs to be split up.
+
+### Short term memory holds about 7 slots
+
+An average human being can hold about 7 things in memory at a time. However, this is an average, so while some people might peak at 11, you might only be able to remember 4 that time you were hungover but had to fix a bug in production.
+
+* Functions should not contain more than 7 variables, ideally less
+
+### Don’t make me think
+
+When reading code we need all of our brainpower to understand what it is doing, so write clearly and understandable.
+
+* Avoid abbreviations, abbreviations make you think
+* Name functions and methods descriptively
+* Use autocomplete to complete long names
+
+---
+
 ## Inspiration and further reading
 
 * [Writing Code for Humans by Ilya Dorman](https://medium.com/@ilyothehorrid/writing-code-for-humans-5b80a89f439c)
