@@ -4,6 +4,14 @@ explains: What we should think of when writing code so the most important comput
 
 # How to code for humans
 
+**Good code is written for humans and executable by machines**. This means that the human brain understanding your code is just as important – if not more so – as a machine understanding it. By understanding what the human brain is good at, and what it is not so good at, we can write code that functions better and is more easily maintainable.
+
+With your code you are decribing functionality so precise it can be executed by machines. However those machines are not the ones tasked with fixing the bugs when they arise. The compiler doesn’t care if you call a variable `e` or `fatalErrorCode`. However, another human (or you in the future) might be tasked with fixing a breaking bug, at which point `e` might make it very difficult to figure out what is going on.
+
+Code is read more often than it's written and most developer time is spent chasing bugs. There is much to be gained from writing code that is easy to understand, both if you are familiar with the code or new to the team.
+
+Here are some basic priciples that can help you write better code.
+
 ## Human coding guidelines
 
 ### Single Responsibility Principle
