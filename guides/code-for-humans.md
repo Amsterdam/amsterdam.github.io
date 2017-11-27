@@ -16,8 +16,9 @@ Here are some basic priciples that can help you write better code.
 
 ### Single Responsibility Principle
 
-* functions should do 1 thing, and do it well
-* functions should be around max ~10-15 lines
+* Functions should do 1 thing, and do it well
+* Functions should be around a maximum of 10-15 lines
+* Functions should never exceed 25 lines
 
 Tip: Describe every function in a _docstring_, if you use “and” in your description you know it does two things and needs to be split up.
 
