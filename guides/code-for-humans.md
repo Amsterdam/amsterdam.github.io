@@ -32,7 +32,7 @@ An average human being can hold about 7 things in memory at a time. However, thi
 
 When reading code we need all of our brainpower to understand what it is doing, so write clearly and understandable.
 
-* Avoid abbreviations, abbreviations make you think
+* Avoid abbreviations
 * Name functions and methods descriptively
 * Use autocomplete to complete long names
 
