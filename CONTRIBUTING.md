@@ -5,7 +5,7 @@ layout: guides
 
 # Contributing
 
-We – the maintainers of this project and the City of Amsterdam – value your input, enjoy feedback and welcome improvements to our Open Source projects.
+We – the maintainers of this project and [the City of Amsterdam](https://www.amsterdam.nl) – value your input, enjoy feedback and welcome improvements to our Open Source projects.
 
 We love issues and pull requests from everyone.
 
