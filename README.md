@@ -1,3 +1,5 @@
+![City of Amsterdam Open Source](assets/logo.svg)
+
 # amsterdam.github.io
 
 A showcase of Gemeente Amsterdam's Open Source work, a comprehensive guide on how to contribute to our projects and our vision how we believe Open Source software should be built in Amsterdam.
