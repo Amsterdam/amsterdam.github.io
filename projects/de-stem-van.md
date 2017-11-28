@@ -8,7 +8,7 @@ The participation platform 'De Stem Van' was originally developed to give the ci
 
 ![De Stem Van West](../images/de-stem-van-screenshot.png)
 
-Citizens can poll and upload ideas for the neighborhood. After this they can campaign for their plan. Once per month, at a pre-set date, the votes are counted and the plan with the most votes is selected. This plan is automatically out on the agenda of the borough council.
+Citizens can poll and upload ideas for the neighborhood. After this they can campaign for their plan. Once per month, at a pre-set date, the votes are counted and the plan with the most votes is selected. This plan is automatically put on the agenda of the borough council.
 
 The homepage of De Stem Van features stories with photos and videos of citizens that have presented plans to city council and interviews with local politicans to inspire input and inform about the possible outcomes.
 
