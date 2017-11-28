@@ -21,7 +21,7 @@ If you want to add to the documentation or code of one of our projects you shoul
 
 Add your changes in commits [with a message that explains them](https://github.com/alphagov/styleguides/blob/master/git.md#commit-messages). Document choices or decisions you make in the commit message, this will enable everyone to be informed of your choices in the future.
 
-If you are adding code, make sure it adheres to the project's code and documentation style guide before you submit your pull request. You can read more about how to document and style your code in the project's [`README`](README.md).
+If you are adding code, make sure it adheres to the project's code and documentation style guide before you submit your pull request. If the project uses tests, make sure to write tests that show the behaviour of the newly added or changed code. You can read more about how to document, test and style your code in the project's [`README`](README.md).
 
 ### 2. Pull Request
 
