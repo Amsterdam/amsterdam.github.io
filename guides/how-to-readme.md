@@ -16,13 +16,13 @@ When writing the `README` keep your users in mind, they include:
 
 This guide goes into the primary elements any `README` should have, the bare minimum: what the project is; how to install, run and deploy; how to develop and test; and how to contribute.
 
-## 1.  The project name and description
+## 1. The project name and description
+
+> The `README` is an introduction. It should assume the reader knows absolutely nothing about the software and should provide a brief introduction. If software were a screenplay, the `README` would be the elevator pitch. If a person finishes reading the first 10 lines of `frobnicator/README` and still does not know if `frobnicator` is a widget library, accounting software, or a video game, then the author of the README has failed. — [William Pursell on StackOverflow](https://stackoverflow.com/a/2305173)
 
 Give your project a short name by which people can refer to it. Preferably the repository name is similar. Descriptive names are great. However, feel free to get creative.
 
 The description is a high-level overview of what the project is for, what it does and in what way it should be used. The description can double as a mission to keep you focussed and on track, so it is wise to define this as early in the process as possible.
-
-> The `README` is an introduction. It should assume the reader knows absolutely nothing about the software and should provide a brief introduction. If software were a screenplay, the `README` would be the elevator pitch. If a person finishes reading the first 10 lines of `frobnicator/README` and still does not know if `frobnicator` is a widget library, accounting software, or a video game, then the author of the README has failed. — [William Pursell on StackOverflow](https://stackoverflow.com/a/2305173)
 
 Be sure to answer these questions in your description:
 
