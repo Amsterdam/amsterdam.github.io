@@ -1,13 +1,5 @@
 # Projects
 
-You can find all software built by the City of Amsterdam on [our GitHub organisation](https://github.com/amsterdam).
+With the list below we're trying to provide an overview of all of the Open Source projects of the City of Amsterdam. These projects differ greatly in their [reusability and Open Source Health](../guides/track-open-source-health.md), however we're alway happy to collaborate on making them fit your use-case. If you would like a list of upcoming projects, please contact us.
 
-## Reusability
-
-We strife to make our code generally reusable for everyone who would like to solve the same problems as we do, our projects are not all at that level yet. We grade our project on the following scale:
-
-1. **Custom, opaque**: Very specific and not easy to learn from. Might lack documentation or might have non-English code and documentation. Might contain copyrighted content or lack an [Open Source licence](https://opensource.org/licenses).
-2. **Custom, reference**: Specific to our case and documented, can be used to learn from.
-3. **Adaptable**. Documented and possible to adapt.
-4. **Reusable, specifically configured**. Configured specifically for our use, easily reconfigurable. 
-5. **Reusable**. Fully (externally) configurable and useful for anyone.
+You can also find a lot of the code by the City of Amsterdam on the [GitHub organisation Amsterdam](https://github.com/amsterdam).
