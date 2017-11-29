@@ -38,13 +38,13 @@ Make this section shine: If your project has a front-end include a screenshot he
 
 ## 2. How to install, configure, run and deploy
 
-The basics a user needs to know to use the project. Be sure to document every necessary step and some common edge cases to get started and point to relevant further documentation if available. 
+The basics a user needs to know to use the project. Be sure to document every necessary step and some common edge cases to get started and point to relevant further documentation if available.
 
 These sections can be quite technical. You don’t need to explain everything as and you can expect users to search the web for what they don’t understand.
 
 > We find it works really well if you follow a two-step approach to develop the content for this section: first, help someone setup the site who has never done it before, and then write down the exact instructions. Next, ask someone to follow those instructions and see if you’ve missed anything. — [18F: Making `README`s Readable](https://open-source-guide.18f.gov/making-readmes-readable/)
 
-Make sure that these are always up-to-date. If you change functionality in the code, update the `README` concurrently.
+Make sure that these sections are always up-to-date. If you change functionality in the code, update the `README` concurrently.
 
 ## 3. How to develop and test
 
