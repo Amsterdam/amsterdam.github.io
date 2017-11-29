@@ -23,7 +23,7 @@ Here are some basic priciples that can help you write better code.
 * Functions should never exceed 25 lines
 * Keep dependencies of modules to a minimum
 
-Tip: Describe every function in a _docstring_, if you use “and” in your description you know it does two things and needs to be split up.
+Tip: Describe every function, module or class in the – preferably inline – documentation. If the description of the function contains an “and” you know it does two things and needs to be split up.
 
 ### Short term memory holds about 7 slots
 
