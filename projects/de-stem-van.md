@@ -1,5 +1,6 @@
 ---
 abstract: Enabling cities to share ideas and put them on the local political agenda
+reusability: 1
 ---
 
 # De Stem Van

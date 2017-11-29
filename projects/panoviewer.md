@@ -1,5 +1,6 @@
 ---
-abstract: JavaScript library for 360° street views of Amsterdam, Almere and Amstelveen. 
+abstract: JavaScript library for 360° street views of Amsterdam, Almere and Amstelveen.
+reusability: 2
 ---
 
 # PanoViewer
