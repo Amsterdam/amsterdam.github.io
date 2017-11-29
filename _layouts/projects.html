@@ -11,23 +11,38 @@ layout: wrapper
 
     <h3>Reusability: <span class="score reusability-{{ page.reusability }}">{{ page.reusability }}</span></h3>
 
-    <p>
     {% case page.reusability %}
       {% when 1 %}
-      <strong>Custom, opaque</strong>: Very specific and not easy to learn from. Might lack documentation or might have non-English code and documentation. Might contain copyrighted content or lack an <a href="https://opensource.org/licenses">Open Source licence</a>.
+      <h4>Custom, opaque</h4>
+      <p>
+        This project is very specific and not easy to learn from. Might lack documentation or might have non-English code and documentation. Might contain copyrighted content or lack an <a href="https://opensource.org/licenses">Open Source licence</a>.
+      </p>
       {% when 2 %}
-      <strong>Custom, reference</strong>: Specific to our case and documented, can be used to learn from.
+      <h4>Custom, reference</h4>
+      <p>
+        This project is specific to our case and documented, can be used to learn from.
+      </p>
       {% when 3 %}
-      <strong>Adaptable</strong>: Documented and possible to adapt.
+      <h4>Adaptable</h4>
+      <p>
+        This project is documented and possible to adapt.
+      </p>
       {% when 4 %}
-      <strong>Reusable, specifically configured</strong>: Configured specifically for our use, easily reconfigurable. 
+      <h4>Reusable, specifically configured</h4>
+      <p>
+        This project is configured specifically for our use, easily reconfigurable. 
+      </p>
       {% when 5 %}
-      <strong>Reusable</strong>: Fully (externally) configurable and useful for anyone.
+      <h4>Reusable</h4>
+      <p>
+        This project is fully (externally) configurable and useful for anyone.
+      </p>
     {% endcase %}
-    </p>
 
     {% if page.reusability < 4 %}
-    <p>As our goal is to make as much of the code we develop as reusable as possible. We would love to collaborate with you on implementing it in your situation, making the code reusable in the process.</p>
+    <h4>We can help you</h4>
+
+    <p>As our goal is to make as much of the code we develop as reusable as possible. We would love to collaborate with you on implementing it in your situation, making the code more reusable in the process.</p>
     {% endif %}
 
   </aside>
