@@ -46,6 +46,8 @@ These sections can be quite technical. You don’t need to explain everything as
 
 Make sure that these sections are always up-to-date. If you change functionality in the code, update the `README` concurrently.
 
+Tip: If this section gets long and tedious it might be worth it to try and simplify the process of getting started, as ease of use is one of the key reasons for developers to use a project.
+
 ## 3. How to develop and test
 
 Everything a developer needs to know to work on this project, including style guides, how tests work and how to use the development tools.
