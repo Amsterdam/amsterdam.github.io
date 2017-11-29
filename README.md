@@ -10,6 +10,8 @@ A showcase of Gemeente Amsterdam's Open Source work, a comprehensive guide on ho
 
 Feel free to make pull requests, we'll review and merge them as soon as we can. Feel free to edit the MarkDown files, if you are unfamilliar with this, the [Mastering MarkDown](https://guides.github.com/features/mastering-markdown/) guide is pretty good
 
+Be sure to read the [CONTRIBUTING.md](CONTRIBUTING.md) for more information on contributing.
+
 ### Adding a Guide
 
 We believe that sharing our knowledge will help the development of great Open Source software for Amsterdam and the world.
