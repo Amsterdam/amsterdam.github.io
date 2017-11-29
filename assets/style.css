@@ -100,14 +100,13 @@ main>article.markdown-body {
 
 main>aside {
   padding: 0 0 4em 0;
-  width: 25%;
-  max-width: 220px;
-  display: inline-block;
-  vertical-align: top;
 }
 @media screen and (min-width: 1050px) {
   main>aside {
-    padding: 4.6em 0 4em 2em;    
+    display: inline-block;
+    padding: 4.6em 0 4em 6em;   
+    max-width: 25%; 
+    vertical-align: top;
   }
 }
 
