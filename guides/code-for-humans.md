@@ -16,11 +16,12 @@ Here are some basic priciples that can help you write better code.
 
 ### Single Responsibility Principle
 
-* Functions should do 1 thing, and do it well
 > a computer programming principle that states that every module or class should have responsibility over a single part of the functionality – [Wikipedia: Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
+* Functions, modules and classes should do 1 thing, and do it well
 * Functions should be around a maximum of 10-15 lines
 * Functions should never exceed 25 lines
+* Keep dependencies of modules to a minimum
 
 Tip: Describe every function in a _docstring_, if you use “and” in your description you know it does two things and needs to be split up.
 
