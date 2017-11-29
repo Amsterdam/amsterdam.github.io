@@ -1,5 +1,6 @@
 ---
 abstract: OAuth 2.0 authorization service written in Go
+reusability: 4
 ---
 
 # Authz
