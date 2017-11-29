@@ -6,6 +6,33 @@ layout: wrapper
   {{ content }}
 </article>
 
+{% if page.reusability %}
+<aside>
+
+    <h3>Reusability: <span class="score reusability-{{ page.reusability }}">{{ page.reusability }}</span></h3>
+
+    <p>
+    {% case page.reusability %}
+      {% when 1 %}
+      <strong>Custom, opaque</strong>: Very specific and not easy to learn from. Might lack documentation or might have non-English code and documentation. Might contain copyrighted content or lack an <a href="https://opensource.org/licenses">Open Source licence</a>.
+      {% when 2 %}
+      <strong>Custom, reference</strong>: Specific to our case and documented, can be used to learn from.
+      {% when 3 %}
+      <strong>Adaptable</strong>: Documented and possible to adapt.
+      {% when 4 %}
+      <strong>Reusable, specifically configured</strong>: Configured specifically for our use, easily reconfigurable. 
+      {% when 5 %}
+      <strong>Reusable</strong>: Fully (externally) configurable and useful for anyone.
+    {% endcase %}
+    </p>
+
+    {% if page.reusability < 4 %}
+    <p>As our goal is to make as much of the code we develop as reusable as possible. We would love to collaborate with you on implementing it in your situation, making the code reusable in the process.</p>
+    {% endif %}
+
+  </aside>
+{% endif %}
+
 {% assign projects = site.pages | where: "layout", "projects" %}
 
 {% comment %} Don't display this section if there is only one result {% endcomment %}
