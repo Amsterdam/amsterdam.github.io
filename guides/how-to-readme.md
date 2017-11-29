@@ -22,7 +22,7 @@ Give your project a short name by which people can refer to it. Preferably the r
 
 The description is a high-level overview of what the project is for, what it does and in what way it should be used. The description can double as a mission to keep you focussed and on track, so it is wise to define this as early in the process as possible.
 
-> The `README` is an introduction. It should assume the reader knows absolutely nothing about the software and should provide a brief introduction. If software were a screenplay, the `README` would be the elevator pitch. If a person finishes reading the first 10 lines of `frobnicator/README` and still does not know if `frobnicator` is a widget library, accounting software, or a video game, then the author of the README has failed. — [William Pursell](https://stackoverflow.com/a/2305173)
+> The `README` is an introduction. It should assume the reader knows absolutely nothing about the software and should provide a brief introduction. If software were a screenplay, the `README` would be the elevator pitch. If a person finishes reading the first 10 lines of `frobnicator/README` and still does not know if `frobnicator` is a widget library, accounting software, or a video game, then the author of the README has failed. — [William Pursell on StackOverflow](https://stackoverflow.com/a/2305173)
 
 Be sure to answer these questions in your description:
 
