@@ -39,6 +39,11 @@ When reading code we need all of our brainpower to understand what it is doing, 
 * Name functions and methods descriptively
 * Use autocomplete to complete long names
 
+
+### Styleguides
+
+Styleguides can make code more legable, help detect errors and make merge discussions a lot easier. Every team or project might decide on their own standards like PEP8, John Papa, BEM or StandardJS. Make sure the choice of style is well documented in the project's `README` and preferably checked by a linter or auto formatted.
+
 ---
 
 ## Inspiration and further reading
