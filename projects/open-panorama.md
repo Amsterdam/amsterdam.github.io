@@ -1,5 +1,6 @@
 ---
 abstract: End to end solution for processing, normalisation, anonymisation and serving 360° street view panoramas
+reusability: 3
 ---
 
 # Open Panorama
