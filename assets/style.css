@@ -118,6 +118,10 @@ main>aside span.score {
   height: 1.5em;
   text-align: center;
 }
+main>aside ul {
+  list-style: none;
+  padding: 0.75rem;
+}
 
 /* The cards section in Projects and Guides */
 main>h2.section-header {
@@ -184,7 +188,8 @@ body>footer, body>footer h3, body>footer a:link, body>footer a:visited {
 }
 
 /* Emulate the little amsterdam.nl chevron */
-body>footer a:link:before, body>footer a:visited:before {
+body>footer a:link:before, body>footer a:visited:before, 
+aside li>a:link:before, aside li>a:visited:before {
   font-family: Avenir,Arial,sans-serif;  
   display: inline-block;
   content: '›';
@@ -192,6 +197,7 @@ body>footer a:link:before, body>footer a:visited:before {
   font-size: 1.5rem;
   line-height: 0;
   opacity: 0.5;
+  margin-left: -0.75rem;
 }
 
 body>footer>* {
