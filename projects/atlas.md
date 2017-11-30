@@ -26,7 +26,7 @@ The [Map](https://data.amsterdam.nl/#?lse=T&mpb=topografie&mpz=11&mpfs=T&mpv=52.
 * 360° Street View for most objects, [Open Panorama 360° street view](open-panorama.md).
 * Ability to draw a polygon and get the information for all objects inside of it.
 
-### Developer portal
+### Developer information
 
 An overview of [API documentation](https://data.amsterdam.nl/#?mpb=topografie&mpz=11&mpv=52.3731081:4.8932945&pgn=content-overzicht&pgt=apis), and an overview of all Amsterdam City Data [REST APIs, their documentation and status](https://api.data.amsterdam.nl/api/).
 
