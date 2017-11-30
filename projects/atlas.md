@@ -23,7 +23,7 @@ The [Map](https://data.amsterdam.nl/#?lse=T&mpb=topografie&mpz=11&mpfs=T&mpv=52.
 * Yearly aereal photographs from 2003 up to now.
 * Multiple layers with all of the data from the City Data APIs.
 * Clicking on a location or object on the map reveals the inspector with all available data.
-* [Open Panorama 360° street images](open-panorama.md) for most objects.
+* 360° Street View for most objects, [Open Panorama 360° street view](open-panorama.md).
 * Ability to draw a polygon and get the information for all objects inside of it.
 
 ### Developer portal
