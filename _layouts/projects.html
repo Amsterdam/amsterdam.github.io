@@ -15,7 +15,7 @@ layout: wrapper
       {% when 1 %}
       <h4>Custom, opaque</h4>
       <p>
-        This project is very specific and not easy to learn from. Might lack documentation or might have non-English code and documentation. Might contain copyrighted content or lack an <a href="https://opensource.org/licenses">Open Source licence</a>.
+        This project is very specific and not easy to learn from.
       </p>
       {% when 2 %}
       <h4>Custom, reference</h4>
@@ -28,21 +28,21 @@ layout: wrapper
         This project is documented and possible to adapt.
       </p>
       {% when 4 %}
-      <h4>Reusable, specifically configured</h4>
+      <h4>Reusable, configured</h4>
       <p>
-        This project is configured specifically for our use, easily reconfigurable. 
+        This project is configured specifically, easily reconfigurable. 
       </p>
       {% when 5 %}
       <h4>Reusable</h4>
       <p>
-        This project is fully (externally) configurable and useful for anyone.
+        This project is useful for anyone.
       </p>
     {% endcase %}
 
     {% if page.reusability < 4 %}
     <h4>Let us help you implement</h4>
 
-    <p>As our goal is to make as much of the code we develop as reusable as possible. We would love to collaborate with you on implementing it in your situation, making the code more reusable in the process.</p>
+    <p>Our goal is to make as much of the code we develop as reusable as possible. We would love to collaborate with you on implementing it in your situation, improving the reusability in the process. File an issue in the GitHub repository for help.</p>
     {% endif %}
 
     <ul>
