@@ -18,7 +18,7 @@ We believe that sharing our knowledge will help the development of great Open So
 
 Our guides are for everyone, whatever their affiliation. They should be general, understandable for ‘beginners’ and not contain too much technical detail. The content of this website should be broadly applicable to every one of our projects, and thus not feature 'style guides' etc, those are better at home with projects in their repositories.
 
-To add a guide just make a new markdown file in `/guides/`. In order to give your guide the right subtitle on the guides page you should add the `explains` in the front matter. Keep the `explains` short and simple to understand.
+To add a guide just make a new markdown file in `/guides/`. In order to give your guide the right subtitle on the guides page you should add the `explains` in the [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/). Keep the `explains` short and simple to understand.
 
 ```yaml
 ---
