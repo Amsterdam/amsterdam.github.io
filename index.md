@@ -20,10 +20,11 @@ Using and developing Open Source and actively participating in its ecosystem ena
 
 ### Security
 
-Our software processes sensitive data and it informs us in making crucial decisions about citizens Using and developing Open Source is essential in providing the security we need. If you don’t know what is in the software you rely on, you cannot tell there is no backdoor.
+Our software processes sensitive data and it informs us in making crucial decisions about citizens. Using and developing Open Source is essential in providing the security we need. If you don’t know what is in the software you rely on, you cannot tell there is no backdoor.
 
 We play an active role in improving the security of Open Source projects we depend on, and we invite the broader community to audit the security of our projects, as well as suggest improvements.
-Transparency
+
+### Transparency
 
 The software we work with and produce handles the often private information of citizens and companies. Using and developing in Open Source provides a necessary level of transparency for our users and clients.
 
