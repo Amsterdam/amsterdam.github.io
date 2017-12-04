@@ -50,7 +50,7 @@ Developing Open Source projects means developing for reuse. Open Source projects
 
 Developing in the open also allows for other opinions – inside of our organisation and outside – to help adjust the direction of a product to maximise its usefulness to the community it serves.
 
-If one of our projects is successful it can, relatively easily, be replicated or changed to be implemented in a different circumstance.
+If one of our projects is successful it can – relatively easily – be replicated or changed to be implemented in a different circumstance.
 
 If one of our projects or parts of one of our projects is reliant on another project we want to replace, the principles of reusability make sure we can easily switch.
 
