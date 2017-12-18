@@ -77,12 +77,8 @@ Our API's are documented using swagger. Each project is able to serve a swagger 
 The endpoint is included in the [catalog](https://github.com/Amsterdam/catalog) project and so exposing it to our clients.
 
 Swagger first is preferred. This means that the swagger specification determines the API service.
-For an example of this appraoch see [ADD LINK]()
 
 Common practice is however to start with the development of the API and generate or write the swagger documentation afterwards.
-
-Note: A current problem of our swagger documentation is that the try-out's of the API's that require authorization
-do not work because of the missing integration with our [authorization framework ADD LINK]()
 
 ## Which frameworks we use
 
@@ -90,20 +86,19 @@ Django and Flask are used alternately. Projects that are tightly connected to da
 Other (mostly smaller) projects often make use of the Flask framework.
 
 In recent projects the aiohttp asynchronous HTTP client/server is used.
-This framework has been extended with json functionality in the [ADD LINK]() project.
 
 Recently we also use golang. The specific practices for these projects will be described in a seperate guide.
 
 ## How we share code between our projects
 
-We are in the process of packaging our shared code. An example can be found in [ADD LINK HERE]() and [ADD LINK HERE]().
+We are in the process of packaging our shared code. Links to relevant packages will be included in this guide when they become available.
 
 However, you will also find shared code that has been included in other projects by simply copying its contents.
 
 ## Template project
 
 A real template project that is used to bootstrap new project does not exist within our repository.
-There exists however a project that serves more or less as our showcase project: [ADD LINK]()
+There exists however a project that serves more or less as our showcase project: [Monumenten](https://github.com/Amsterdam/monumenten)
 The setup and layout from this project can be taken as a starting point for new projects.
 
 ## Which DBMS we use
