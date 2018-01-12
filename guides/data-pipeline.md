@@ -14,7 +14,8 @@ This guide describes our workflow for creating a reproducable ETL data flow whic
 We use a these principles:
 - One City, one solution: meaning: We try to build an etl script which is a start for a more structural solution, not a one off.
 - Create resuable code as [Open Source](track-open-source-health.md)
-- Use [Git](https://git-scm.com) to store the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
+- Use [Git](https://git-scm.com) as version control
+- Publish the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
 - Use Docker to automate, using the [backend project methods](back-end-projects.md).
 - Use Python as a scripting language for the processing steps. using this [python style guide](style-guide-python.md).
 - Use Postgres/Postgis as a data storage and cleaning/merge solution with use of the SQL language.
