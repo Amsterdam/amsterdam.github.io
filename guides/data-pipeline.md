@@ -32,7 +32,7 @@ Much of the data is still recieved by mail in the form of database dumps as tabu
 To solve this an make automation possible, clients are asked to:
 
 **A. API/web route**
-1. Create an API token for registration system and send the token by mail.
+1. Create an API token to access the api of the registration system and send the token by mail.
 2. Send an API token by mail.
 3. Send PHP login credentials by mail to use the API's.
 4. If there is no api available: Ask the owner of the data to create an api on the registration system and help with the api output definitions.
