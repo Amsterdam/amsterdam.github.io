@@ -18,13 +18,19 @@ We use a these principles:
 - Publish the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
 - Use Docker to automate, using the [backend project methods](back-end-projects.md).
 - Use Python as a scripting language for the processing steps. using this [python style guide](style-guide-python.md).
-- Use Postgres/Postgis as a data storage and cleaning/merge solution with use of the SQL language.
+- Use a Postgres/Postgis Docker as a data storage and cleaning/merge solution with use of the SQL language.
 - We always try to improve the data quality of the clients data supplier where possible by explaining and showing the benefits of integrating https://api.data.amsterdam.nl endpoints to achieve the first principle.
 
 <img src="/images/data-pipeline-flow.png" width="800">
 <a href="/images/data-pipeline-flow.xml">data-pipeline-flow.xml</a> download and load into https://www.draw.io to edit.
 
 ## ETL workflow
+
+The workflow consist of 4 steps:
+1. Getting the data
+2. Stage the data
+3. Clean the data
+4. Combine the data
 
 ### 1. Getting the data
 
