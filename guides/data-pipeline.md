@@ -64,13 +64,13 @@ To load the data into the database we use python in a Docker container to create
 A typical flow will look like this:
 
 ```
-1. Setup the credentials as en environment variables
-2. Login to objectstore or api
-3. Download all records by looping through the API objects, downloading from the objectstore or loading them from a datamart
-4. Save the files/objects in dataframe or dict and do some preliminary data cleanup
-5. Set the schema if needed
-6. Store the dataframe/dict in the postgres database in a schema with the name of the project
-7. Add additional tables for semantic enrichment, like neighborhood areas or addresses
+1. Setup the credentials as environment variables.
+2. Login to objectstore or api.
+3. Download all records by looping through the API objects, downloading from the objectstore or loading them from a datamart.
+4. Save the files/objects in dataframe or dict and do some preliminary data cleanup.
+5. Set the schema if needed.
+6. Store the dataframe/dict in the postgres database in a schema with the name of the project.
+7. Add additional tables for semantic enrichment, like neighborhood areas or addresses.
 8. Create a view for use for analyis or further usage in Service backends like the Django Rest Framwork or programs like Tableau Desktop. 
 ```
 
