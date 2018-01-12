@@ -33,13 +33,14 @@ To solve this an make automation possible, clients are asked to:
 1. Create an API token for registration system and send the token by mail.
 2. Send an API token by mail.
 3. Send PHP login credentials by mail to use the API's.
-
 4. If there is no api available: Ask the owner of the data to create an api on the registration system and help with the api output definitions.
 
 **B. Database route**
+
 5. Recieve an user account for a datamart connection and ask for a ip connection through Motiv if it is not yet available @datapunt.
 
 **C. File delivery route**
+
 6. Let the client upload a database dump periodically to the objectstore with a user/password.
 7. Send the (database) dump by mail to the data analist.
 8. Copy the dump on to a protected/encrypted USB stick on location.
