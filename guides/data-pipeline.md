@@ -20,6 +20,8 @@ We use a these principles:
 - Use Postgres/Postgis as a data storage and cleaning/merge solution with use of the SQL language.
 - We always try to improve the data quality of the clients data supplier where possible by explaining and showing the benefits of integrating https://api/data.amsterdam.nl endpoints to achieve the first principle.
 
+<img src="images/data-pipeline-flow.png" width="100">
+
 
 ## ETL workflow
 
