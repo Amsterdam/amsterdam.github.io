@@ -18,7 +18,7 @@ We use a these principles:
 - Publish the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
 - Use [Docker](https://www.docker.com) to automate, using the [backend project methods](back-end-projects.md).
 - Use [Python](https://www.python.org) as a scripting language for the processing steps. using this [python style guide](style-guide-python.md).
-- Use a [Postgres with Postgis extension Docker image](https://hub.docker.com/r/amsterdam/postgres/) as a data storage and cleaning/merge solution.([Postgis](http://postgis.net))
+- Use a [Postgres](https://www.postgresql.org) with [Postgis](http://postgis.net) extension [Docker image](https://hub.docker.com/r/amsterdam/postgres/) as a data storage and cleaning/merge solution.([Postgis])
 - We always try to improve the data quality of the clients data supplier where possible by explaining and showing the benefits of integrating https://api.data.amsterdam.nl endpoints to use [basisregistraties](https://www.amsterdam.nl/stelselpedia/) to achieve the first principle.
 
 <img src="/images/data-pipeline-flow.png" width="800">
