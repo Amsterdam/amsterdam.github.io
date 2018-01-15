@@ -16,10 +16,10 @@ We use a these principles:
 - Create resuable code as [Open Source](track-open-source-health.md)
 - Use [Git](https://git-scm.com) as version control
 - Publish the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
-- Use Docker to automate, using the [backend project methods](back-end-projects.md).
-- Use Python as a scripting language for the processing steps. using this [python style guide](style-guide-python.md).
-- Use a Postgres/Postgis Docker as a data storage and cleaning/merge solution with use of the SQL language.
-- We always try to improve the data quality of the clients data supplier where possible by explaining and showing the benefits of integrating https://api.data.amsterdam.nl endpoints to achieve the first principle.
+- Use [Docker](https://www.docker.com) to automate, using the [backend project methods](back-end-projects.md).
+- Use [Python](https://www.python.org) as a scripting language for the processing steps. using this [python style guide](style-guide-python.md).
+- Use a [Postgres with Postgis extension Docker image](https://hub.docker.com/r/amsterdam/postgres/) as a data storage and cleaning/merge solution.([Postgis](http://postgis.net))
+- We always try to improve the data quality of the clients data supplier where possible by explaining and showing the benefits of integrating https://api.data.amsterdam.nl endpoints to use [basisregistraties](https://www.amsterdam.nl/stelselpedia/) to achieve the first principle.
 
 <img src="/images/data-pipeline-flow.png" width="800">
 <a href="/images/data-pipeline-flow.xml">data-pipeline-flow.xml</a> download and load into https://www.draw.io to edit.
