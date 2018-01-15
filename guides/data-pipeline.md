@@ -12,7 +12,7 @@ This guide describes our workflow for creating a reproducable ETL data flow whic
 ## First things first
 
 We use a these principles:
-- One City, one solution: meaning: We try to build an etl script which is a start for a more structural solution, not a one off.
+- One City, one solution: meaning: We try to write ETL scripts which are the start for a more structural solution, not a one off.
 - Create resuable code as [Open Source](track-open-source-health.md)
 - Use [Git](https://git-scm.com) as version control
 - Publish the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
