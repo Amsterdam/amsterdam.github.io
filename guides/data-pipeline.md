@@ -15,7 +15,7 @@ We use a these principles:
 - One City, one solution: meaning: We try to write ETL scripts which are the start for a more structural solution, not a one off.
 - Create resuable code as [Open Source](track-open-source-health.md)
 - Use [Git](https://git-scm.com) as version control
-- Publish the code on https://www.github.com/amsterdam as a project with a clear [Readme](write-a-readme.md).
+- Publish the code on [github.com/amsterdam](https://www.github.com/amsterdam) as a project with a clear [Readme](write-a-readme.md).
 - Use [Docker](https://www.docker.com) to automate, using the [backend project methods](back-end-projects.md).
 - Use [Python](https://www.python.org) as a scripting language for the processing steps. using this [python style guide](style-guide-python.md).
 - Use a [Postgres](https://www.postgresql.org) with [Postgis](http://postgis.net) extension [Docker image](https://hub.docker.com/r/amsterdam/postgres/) as a data storage and cleaning/merge solution.
