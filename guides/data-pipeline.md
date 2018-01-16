@@ -21,8 +21,8 @@ We use a these principles:
 - Use a [Postgres](https://www.postgresql.org) with [Postgis](http://postgis.net) extension [Docker image](https://hub.docker.com/r/amsterdam/postgres/) as a data storage and cleaning/merge solution.([Postgis])
 - We always try to improve the data quality of the clients data supplier where possible by explaining and showing the benefits of integrating https://api.data.amsterdam.nl endpoints to use [basisregistraties](https://www.amsterdam.nl/stelselpedia/) to achieve the first principle.
 
-<img src="/images/data-pipeline-flow.png" width="800">
-<a href="/images/data-pipeline-flow.xml">data-pipeline-flow.xml</a> download and load into https://www.draw.io to edit.
+<img src="/images/data-pipeline-flow-v2.png" width="800">
+<a href="/images/data-pipeline-flow-v2.xml">data-pipeline-flow-v2.xml</a> download and load into https://www.draw.io to edit.
 
 ## ETL workflow
 
