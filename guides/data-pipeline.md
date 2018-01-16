@@ -58,11 +58,11 @@ Optionally:
 Send the ip ranges of our organisation to the application maintainers.
 
 **Responsibility of the data analist/engineer:**
-```
+
 A. Store the token/login in the password manager
 B. Store the userlogin/password in the password manager of the project or team
 C. Store the dump on the objectstore
-```
+
 
 ### 2. Staging the data
 
