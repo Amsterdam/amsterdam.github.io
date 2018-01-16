@@ -2,7 +2,7 @@
 explains: The way we make reusable data etl pipelines
 ---
 
-# How we create clean, enriched data that is reproducable for use in projects and apps in production
+# How we create cleaned, reproducable data for use in projects and apps
 
 At the City of Amsterdam we deal with many different types of structured and unstructered data.
 Much of the data is not of high quality and are missing a lot of needed semantics to do proper analytics with.
