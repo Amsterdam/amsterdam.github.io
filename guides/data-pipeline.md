@@ -23,7 +23,8 @@ We use a these principles:
 
 
 
-<a href="/images/data-pipeline-flow-v2.png"><img src="/images/data-pipeline-flow-v2.png" width="800"></a></br>
+<a href="/images/data-pipeline-flow-v2.png"><img src="/images/data-pipeline-flow-v2.png" width="800"></a>
+
 <a href="https://www.draw.io/?lightbox=1&highlight=000000&edit=_blank&layers=1&nav=1&title=data_pipeline_v2.xml#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Famsterdam%2Famsterdam.github.io%2Fmaster%2Fdata-pipeline-flow-v2.xml">edit xml with draw.io</a>.
 
 ## ETL workflow
