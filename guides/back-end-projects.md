@@ -5,14 +5,14 @@ explains: The style guide to the way we organize our Python back-end projects
 # Python backend projects
 
 ## Introduction
-This document describes the common practices that are used in our Pyhon backend projects.
-It is not meant as an encompassing developent standards document.
+This document describes the common practices that are used in our Python backend projects.
+It is not meant as an encompassing development standards document.
 Within the backend team developers are free to choose the best tool for the job.
 
 ## How we use docker and docker-compose
 
-A lot of the [open source code software of the City of Amsterdam]((https://github.com/Amsterdam)) uses docker containers.
-Seperate tasks are normally organised in seperate dockers.
+A lot of the [open source code software of the City of Amsterdam](https://github.com/Amsterdam) uses Docker containers.
+Separate tasks are normally organised in separate Dockers.
 
 In general we follow common community guidelines:
 - [Dockerfile best practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
@@ -36,9 +36,9 @@ See [Python Style Guide](style-guide-python.md)
 * license
 * services:
 
-  * each defined in a seperate folder at the root level of the project
+  * each defined in a separate folder at the root level of the project
   
-  * each having seperate sources and tests folders
+  * each having separate sources and tests folders
   
   * each having a `Dockerfile` with a corresponding `.dockerignore`
   
@@ -54,7 +54,7 @@ See [Python Style Guide](style-guide-python.md)
 
 All of our projects require (unit) tests which are integrated in the continuous build process.
 
-For testing we prefer using pytest, following its corresponding [good practices](https://docs.pytest.org/en/latest/goodpractices.html)
+For testing we prefer using [pytest](https://docs.pytest.org/), following its corresponding [good practices](https://docs.pytest.org/en/latest/goodpractices.html)
 
 However you may find the use of unittest in some (older) projects.
 
@@ -63,17 +63,17 @@ Absolute code coverage requirements and enforcement thereof exist only in very r
 
 ## How we assure our code quality
 
-All code is reviewed by a collegue and subsequently accepted in the acceptance environment, before it is released to the production environment.
+All code is reviewed by a colleague and subsequently accepted in the acceptance environment, before it is released to the production environment.
 
-Deployment to production is a manual action in the CI environment.
+Deployment to production is a manual action in the Continuous Integration (CI) environment.
 
-Linting tools (pylint, flake8, pep8, ...) and the inclusion of these checks in the CI cycle are rarely done in our projects.
+Linting tools ([pylint](https://www.pylint.org/), [flake8](http://flake8.pycqa.org/), [pycodestyle](https://pypi.python.org/pypi/pycodestyle), ...) and the inclusion of these checks in the CI cycle are rarely done in our projects.
 Most of the linting is expected to be done by the IDE.
-Code quality checks are normally not part of the build process.
+Code quality checks are normally not part of the build process.CI
 
 ## How we build our API's
 
-Our API's are documented using swagger. Each project is able to serve a swagger json or yaml file.
+Our API's are documented using [swagger](https://swagger.io/). Each project is able to serve a swagger json or yaml file.
 The endpoint is included in the [catalog](https://github.com/Amsterdam/catalog) project and so exposing it to our clients.
 
 Swagger first is preferred. This means that the swagger specification determines the API service.
@@ -82,12 +82,12 @@ Common practice is however to start with the development of the API and generate
 
 ## Which frameworks we use
 
-Django and Flask are used alternately. Projects that are tightly connected to databases normally use the Django framework.
+[Django](https://www.djangoproject.com/) and [Flask](http://flask.pocoo.org/) are used alternately. Projects that are tightly connected to databases normally use the Django framework.
 Other (mostly smaller) projects often make use of the Flask framework.
 
 In recent projects the aiohttp asynchronous HTTP client/server is used.
 
-Recently we also use golang. The specific practices for these projects will be described in a seperate guide.
+    Recently we also use [golang](https://golang.org/). The specific practices for these projects will be described in a seperate guide.
 
 ## How we share code between our projects
 
@@ -97,13 +97,13 @@ However, you will also find shared code that has been included in other projects
 
 ## Template project
 
-A real template project that is used to bootstrap new project does not exist within our repository.
-There exists however a project that serves more or less as our showcase project: [Monumenten](https://github.com/Amsterdam/monumenten)
+A real template project that is used to bootstrap a new project does not exist within our repository.
+There exists however a project that serves more or less as our showcase project: [Monumenten](https://github.com/Amsterdam/monumenten).
 The setup and layout from this project can be taken as a starting point for new projects.
 
-## Which DBMS we use
+## Which DataBase Management System (DBMS) we use
 
-PostgreSQL. In Flask projects the SQLAlchemy library is used to access the database.
+[PostgreSQL](https://www.postgresql.org/). In Flask projects the [SQLAlchemy](https://www.sqlalchemy.org/) library is used to access the database.
 
 ## How we use github
 
