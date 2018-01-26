@@ -1,6 +1,9 @@
 ---
-explains: How to set up a docker analysis project
+explains: How we set up a docker environment for analysis
 ---
+
+
+# How we create a docker environment for data analysis
 
 # Setting up
 
