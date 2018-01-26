@@ -30,6 +30,9 @@ We use a these principles:
 
 ## ETL workflow
 
+The current roles within the City of Amsterdam are described here with which people and teams we collaborate with to get our data:
+<a href="/images/data-pipeline-flowchart.png"><img src="/images/data-pipeline-flowchart.png" width="400"></a>
+
 The workflow consist of 4 steps:
 1. Getting the data
 2. Stage the data
@@ -63,9 +66,9 @@ Send the ip ranges of our organisation to the application maintainers.
 
 **Responsibility of the data analist/engineer:**
 
-A. Store the token/login in the password manager
-B. Store the userlogin/password in the password manager of the project or team
-C. Store the dump on the objectstore
+1. Store the token/login in the password manager
+2. Store the userlogin/password in the password manager of the project or team
+3. Store the dump on the objectstore
 
 
 ### 2. Staging the data
