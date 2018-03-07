@@ -9,9 +9,12 @@ Much of the data is not of high quality and are missing a lot of needed semantic
 
 This guide describes our workflow for creating a reproducable ETL data flow which we use to create better data for analytics and usage in dashboards and maps.
 
+If you want to skip the explanation and want to go directly to our github data-processing repo:
+  - [github.com/amsterdam/data-processing](https://www.github.com/amsterdam/data-processing)
+
 ## First things first
 
-We use a these principles:
+We use these principles:
 - One City, one solution: meaning: We try to write ETL scripts which are the start for a more structural solution, not a one off.
 - Create resuable code as [Open Source](track-open-source-health.md)
 - Use [Git](https://git-scm.com) as version control
@@ -87,3 +90,16 @@ A typical flow will look like this:
 6. Store the dataframe/dict in the postgres database in a schema with the name of the project.
 7. Add additional tables for semantic enrichment, like neighborhood areas or addresses.
 8. Create a view for use for analyis or further usage in Service backends like the Django Rest Framwork or programs like Tableau Desktop. 
+
+### 3. Cleaning the data
+
+Most of the cleaning we do beforehand in pure python or using pandas. It the data is large we use mostly sql scripts in a postgres database and clean it with use of additional datasets like:
+1. [Basisregistraties](www.amsterdam.nl/stelselpedia) Which are all available as a daily postgres backup or as an [API](https://api.data.amsterdam.nl) or [WFS services](https://api.data.amsterdam.nl).
+2. [pdok.nl](https://pdok.nl) The Dutch geo data portal, which also has a nice [geocoding api](https://www.pdok.nl/nl/producten/pdok-locatieserver)
+3. [NL_Extract](http://www.nlextract.nl) A Dutch initiative which publishes monthly [many free available dumps](https://data.nlextract.nl) of all Dutch addresses as a postgres dump, but also OSM, BRT and BRK and Top10NL.
+
+To connect to these services more easily we made some python modules, which are explained here: https://amsterdam.github.io/data-processing/modules.html
+
+### 4. Combining the data
+
+After the data is cleaned, we combine the data mostly with postgres using Docker or with pandas dataframes. It depends on the output if it is served back as an API in Django for web services or as a flat CSV file to reuse in other visual programs like Tableau.
