@@ -34,7 +34,7 @@ We use these principles:
 ## ETL workflow
 
 The current roles within the City of Amsterdam are described here with which people and teams we collaborate with to get our data:
-<a href="/images/data-pipeline-flowchart.png"><img src="/images/data-pipeline-flowchart.png" width="400"></a>
+<a href="/images/data-pipeline-flowchart.png"><img src="/images/data-pipeline-flowchart.png" width="800"></a>
 
 The workflow consist of 4 steps:
 1. Getting the data
