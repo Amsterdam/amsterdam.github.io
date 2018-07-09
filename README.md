@@ -1,4 +1,4 @@
-[![City of Amsterdam Open Source](assets/logo.svg)](https://amsterdam.github.io)
+[![City of Amsterdam Open Source](https://amsterdam.github.io/amsterdam-jekyll-theme/assets/logo.svg)](https://amsterdam.github.io)
 
 # amsterdam.github.io
 
