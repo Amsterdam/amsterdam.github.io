@@ -11,3 +11,7 @@ defaults:
       layout: "projects"
 include: [README.md,CONTRIBUTING.md]
 permalink: pretty
+
+# Use the amsterdam-jekyll-theme from https://github.com/Amsterdam/amsterdam-jekyll-theme
+remote_theme: amsterdam/amsterdam-jekyll-theme
+headerHideTitle: true
