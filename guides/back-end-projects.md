@@ -58,8 +58,17 @@ For testing we prefer using [pytest](https://docs.pytest.org/), following its co
 
 However you may find the use of unittest in some (older) projects.
 
-Code coverage is normally not checked.
-Absolute code coverage requirements and enforcement thereof exist only in very rare cases.
+In earlier projects code coverage was normally not checked.
+Absolute code coverage requirements and enforcement thereof in these projects exist only in very rare cases.
+
+In newer projects code coverage is however normally checked. Absolute coverage requirements are part of these projects.
+
+### About code coverage
+
+Code coverage is a measure to define the quality and completeness of the test suite.
+The coverage should normally be at least 85% of statements and functions in each file.
+
+But beware: high coverage is not an absolute measure. Good tests may execute the same lines multiple times, both for the happy flow as for unexpected situations. Testing for just a high coverage is considered bad practice.
 
 ## How we assure our code quality
 
