@@ -58,15 +58,36 @@ For testing we prefer using [pytest](https://docs.pytest.org/), following its co
 
 However you may find the use of unittest in some (older) projects.
 
+### About testing
+
+Every bit of code code should be committed and PR'ed accompanied by the relevant tests.
+Good tests both test the code as well as describe what the code is meant to do.
+Tests also serve as documentation. Be sure to document your tests adequately.
+Tests can often be referenced later in order to understand the intent of a commit.
+
+Tests should not rely on (simple) copies of production data. This data is just the normal flow.
+The tests should use data in the format of production data but with it's own contents, without any reference to existing data (especially when it concerns data of persons).
+The tests should test the normal behavior (happy flow) as well as the behavior in unexpected conditions.
+
+The tests should concentrate on the software that has been developed.
+The test should not test if a library that is used is working OK. If for instance an Oracle client or HTTP library is used then this library should be mocked. External libraries should be considered as tested and proven.
+
+Use both module tests and integration tests and try to avoid mixing these two up.
+The closer a test is to the source, the easier it is to find the source of any errors and to fix it.
+Integration tests are required to test the composition of modules, not the modules itself. They should be tested at a lower level.
+
+### About code coverage
+
 In earlier projects code coverage was normally not checked.
 Absolute code coverage requirements and enforcement thereof in these projects exist only in very rare cases.
 
 In newer projects code coverage is however normally checked. Absolute coverage requirements are part of these projects.
-
-### About code coverage
+Please check the README of the project for more information about specific test requirements.
 
 Code coverage is a measure to define the quality and completeness of the test suite.
 The coverage should normally be at least 85% of statements and functions in each file.
+To get at least 85% code coverage requires significant test efforts. Individual projects might specify higher percentages.
+It is not uncommon to require 100% code coverage, especially for complex modules.
 
 But beware: high coverage is not an absolute measure. Good tests may execute the same lines multiple times, both for the happy flow as for unexpected situations. Testing for just a high coverage is considered bad practice.
 
