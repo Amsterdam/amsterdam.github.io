@@ -15,4 +15,4 @@ The homepage of De Stem Van features stories with photos and videos of citizens 
 
 De Stem Van has since development been implemented in several other boroughs in Amsterdam.
 
-For more information on De Stem Van, check out the [GitHub repository: OpenStadsdeel/stemvan](https://github.com/OpenStadsdeel/stemvan)
+For more information on De Stem Van, check out the [GitHub repository: Amsterdam/openstad-monolith](https://github.com/Amsterdam/openstad-monolith)
