@@ -1,9 +1,9 @@
 ---
 abstract: Enabling cities to share ideas and put them on the local political agenda
-reusability: 1
+reusability: 3
 ---
 
-# De Stem Van
+# OpenStad: De Stem Van...
 
 The participation platform 'De Stem Van' was originally developed to give the citizens of the Stadsdeel West borough of Amsterdam the ability to put items on the political agenda. 
 
