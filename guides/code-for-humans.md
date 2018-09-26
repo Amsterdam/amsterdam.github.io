@@ -43,7 +43,7 @@ When reading code we need all of our brainpower to understand what it is doing, 
 
 Preventing human mistakes is about being aware of human limitations. Humans can't handle ambiguity very well.
 Consistency, clear guide lines, good tests, good variable names are all methods to avoid mistakes.
-For example plurar of index can be indexes or indices so since it is possible to make a mistake a good habit is 
+For example plural of index can be indexes or indices so since it is possible to make a mistake a good habit is 
 to use singular form of a variable name.
 
 
