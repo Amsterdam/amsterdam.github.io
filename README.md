@@ -67,5 +67,5 @@ bundle install
 Run Jekyll, generate the site, watch for changes and serve over a local webserver with 
 
 ```bash
-jekyll serve
+jekyll serve --livereload
 ```
