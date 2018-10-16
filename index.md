@@ -14,13 +14,13 @@ Being a part of the Open Source ecosystem – in which we are both a user and co
 
 ### Collaboration
 
-We live in a time where most of the problems we’re facing – including societal, technological, mobility, growth and climate – as a city are too large to solve on our own. We need to collaborate with other cities, governments, businesses and individuals to solve these problems. Meaning we are sharing our knowledge as much as possible, so that we can learn from our peers, and can collaborate on solutions.
+We live in a time where most of the problems we are facing as a city – including societal, technological, mobility, growth and climate – are too large to solve on our own. We need to collaborate with other cities, governments, businesses and individuals to solve these problems. Meaning we are sharing our knowledge as much as possible, so that we can learn from our peers, and can collaborate on solutions.
 
 Using and developing Open Source and actively participating in its ecosystem enables us to create valuable collaborations that would otherwise not be possible.
 
 ### Security
 
-Our software processes sensitive data and it informs us in making crucial decisions about citizens. Using and developing Open Source is essential in providing the security we need. If you don’t know what is in the software you rely on, you cannot tell there is no backdoor.
+Our software processes sensitive data and it informs us in making crucial decisions about citizens. Using and developing Open Source is essential in providing the security we need. If you do not know what is in the software you rely on, you cannot tell there is no backdoor.
 
 We play an active role in improving the security of Open Source projects we depend on, and we invite the broader community to audit the security of our projects, as well as suggest improvements.
 
