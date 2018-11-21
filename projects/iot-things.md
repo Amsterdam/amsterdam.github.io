@@ -7,8 +7,10 @@ reusability: 4
 
 We are building API's for the rigistration and measurement / signal proccessing
 of devices in Amsterdam.
-This is a work in progres
 
+This is a work in progress.
 
-[IOT registration](https://github.com/Amsterdam/iot-api)
-[IOT signals](https://github.com/Amsterdam/iotsignals)
+Repositories on GitHub:
+
+* [Amsterdam/iot-api: IOT registration](https://github.com/Amsterdam/iot-api)
+* [Amsterdam/iotsignals: IOT signals](https://github.com/Amsterdam/iotsignals)
