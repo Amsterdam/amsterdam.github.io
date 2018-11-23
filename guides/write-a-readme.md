@@ -18,7 +18,7 @@ This guide goes into the primary elements any `README` should have, the bare min
 
 ## 1. The project name and description
 
-> The `README` is an introduction. It should assume the reader knows absolutely nothing about the software and should provide a brief introduction. If software were a screenplay, the `README` would be the elevator pitch. If a person finishes reading the first 10 lines of `frobnicator/README` and still does not know if `frobnicator` is a widget library, accounting software, or a video game, then the author of the README has failed. — [William Pursell on StackOverflow](https://stackoverflow.com/a/2305173)
+> The `README` is an introduction. It should assume the reader knows absolutely nothing about the software and should provide a brief introduction. If software were a screenplay, the `README` would be the elevator pitch. If a person finishes reading the first 10 lines of `frobnicator/README` and still does not know if `frobnicator` is a widget library, accounting software, or a video game, then the author of the README has failed. — William Pursell on StackOverflow
 
 Give your project a short name by which people can refer to it. Preferably the repository name is similar. Descriptive names are great. However, feel free to get creative.
 
@@ -54,7 +54,7 @@ Everything a developer needs to know to work on this project, including style gu
 
 ## 4. How to contribute and ask questions
 
-Here you can describe how to get involved in the project, contribute and ask questions. 
+Here you can describe how to get involved in the project, contribute and ask questions.
 
 If you have a `CONTRIBUTING` file, be sure to point to it from your `README`.
 
@@ -76,4 +76,3 @@ Depending on your project you might also need to explain more about:
 * [18Fs Open Source Guide on `README`s](https://open-source-guide.18f.gov/making-readmes-readable/)
 * [Jesse Luotos `README` best practices](https://github.com/jehna/readme-best-practices/)
 * [`README`s for GOV.UK applications](https://docs.publishing.service.gov.uk/manual/readmes.html)
-* [How to write a good `README` on StackOverflow](https://stackoverflow.com/questions/2304863/how-to-write-a-good-readme)
