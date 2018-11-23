@@ -25,7 +25,7 @@ To get started with Docker, see the official [starting guide](https://docs.docke
 
 ## How we use docker and docker-compose
 
-A lot of the [open source code software of the City of Amsterdam]((https://github.com/Amsterdam)) uses docker containers.
+A lot of the [open source code software of the City of Amsterdam]((https://github.com/Amsterdam) uses docker containers.
 Seperate tasks are normally organised in seperate dockers.
 
 In general we follow common community guidelines:

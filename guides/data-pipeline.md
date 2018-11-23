@@ -94,7 +94,7 @@ A typical flow will look like this:
 ### 3. Cleaning the data
 
 Most of the cleaning we do beforehand in pure python or using pandas. It the data is large we use mostly sql scripts in a postgres database and clean it with use of additional datasets like:
-1. [Basisregistraties](www.amsterdam.nl/stelselpedia) Which are all available as a daily postgres backup or as an [API](https://api.data.amsterdam.nl) or [WFS services](https://api.data.amsterdam.nl).
+1. [Basisregistraties](http://www.amsterdam.nl/stelselpedia) Which are all available as a daily postgres backup or as an [API](https://api.data.amsterdam.nl) or [WFS services](https://api.data.amsterdam.nl).
 2. [pdok.nl](https://pdok.nl) The Dutch geo data portal, which also has a nice [geocoding api](https://www.pdok.nl/nl/producten/pdok-locatieserver)
 3. [NL_Extract](http://www.nlextract.nl) A Dutch initiative which publishes monthly [many free available dumps](https://data.nlextract.nl) of all Dutch addresses as a postgres dump, but also OSM, BRT and BRK and Top10NL.
 
