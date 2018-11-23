@@ -8,7 +8,7 @@ reusability: 1
 All documentation, scripts and syntaxes, and datamodels (refered to as `code`) used for generating
 descriptive statistics about the population and real estate of Amsterdam.
 
-User friendly documentation can be found on our [documentation](https://basisstatistiek.amsterdam.nl) website.
+User friendly documentation can be found on our documentation that is available for Amsterdam civil servants only.
 
 The project is built modular and split in various components which are split across various (github) repositories:
 - [Documenation and definitions](https://github.com/amsterdam/basisstatistiek-documentatie)
