@@ -1,12 +1,12 @@
 ---
 abstract: Internet of Things related projects. registration and storing sensor data
-reusability: 4
+reusability: 1
 ---
 
-# Internet of things
+# Internet of things registry
 
-We are building API's for the rigistration and measurement / signal proccessing
-of devices in Amsterdam.
+We are building API's and front-ends for the registration and measurement/signal proccessing
+of connected devices.
 
 This is a work in progress.
 
