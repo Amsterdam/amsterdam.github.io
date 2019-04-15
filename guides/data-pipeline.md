@@ -36,6 +36,8 @@ We use these principles:
 The current roles within the City of Amsterdam are described here with which people and teams we collaborate with to get our data:
 <a href="/images/data-pipeline-flowchart.png"><img src="/images/data-pipeline-flowchart.png" width="800"></a>
 
+<a href="https://www.draw.io/?lightbox=1&highlight=000000&edit=_blank&layers=1&nav=1&title=data_pipeline_v2.xml#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Famsterdam%2Famsterdam.github.io%2Fmaster%2Fimages%2Fdata-pipeline-flowchart.xml">edit xml with draw.io</a>.
+
 The workflow consist of 4 steps:
 1. Getting the data
 2. Stage the data
