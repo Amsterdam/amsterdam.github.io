@@ -1,5 +1,5 @@
 ---
-explains: How to incorporate logging to your applications and how to visualize data
+explains: How to incorporate logging to your applications and how to visualize this data
 ---
 
 # How we set up logging and monitoring
