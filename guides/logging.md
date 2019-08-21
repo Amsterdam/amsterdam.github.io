@@ -14,7 +14,7 @@ All user statistics are logged in Matomo, formerly named Piwik. This web applica
 
 There are also possibilities to create custom events for every button click or action that's available on your website, set goals and measure their conversions, create custom variables and dimensions, manage privacy and security and more. Some excellent middleware has been developed for these functionalities which can be found in [this repo](https://github.com/Amsterdam/matomo){:target="_blank"}. 
 
-The log files are kept on our own servers and can be called either through [Matomo's API](https://developer.matomo.org/api-reference/reporting-api){:target="_blank"} or visualised in [Matomo's dashboarding tool](http://piwik.datapunt.amsterdam.nl){:target="_blank"}.
+The log files are kept on our own servers and can be called either through [Matomo's API](https://developer.matomo.org/api-reference/reporting-api){:target="_blank"} or visualised in [Matomo's dashboarding tool](http://analytics.datapunt.amsterdam.nl){:target="_blank"}.
 
 For further technical details and implementation choices specifically about [data.amsterdam.nl](https://data.amsterdam.nl){:target="_blank"} employees of the municipality of Amsterdam can view [this dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:toepassingen:citydata:piwik){:target="_blank"}.
 
@@ -37,5 +37,5 @@ All the logs are then picked up by logstash/filebeat/elasticsearch. They can be 
 Error monitoring can be done through the [Kibana](http://logs.data.amsterdam.nl){:target="_blank"} interface. Some developers also add a [Sentry](https://sentry.data.amsterdam.nl){:target="_blank"} config to get notified when and where errors are occuring.
 
 ## Up time monitoring
-We use [Up Time Robot](https://sentry.data.amsterdam.nl){:target="_blank"}up time robot to check if our applications are up and running. Adding an empty file to YOUR_URL/status/health on your site allows team Basis to add a health check for your site to the uptimerobot config.
+We use [Up Time Robot](https://sentry.data.amsterdam.nl){:target="_blank"} to check if our applications are up and running. Adding an empty file to YOUR_URL/status/health on your site allows team Basis to add a health check for your site to the uptimerobot config.
 
