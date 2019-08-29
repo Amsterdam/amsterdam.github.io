@@ -8,6 +8,8 @@ explains: How to incorporate logging to your applications and how to visualize t
 
 At Datapunt new applications, websites and data sources are released every month. To be able to monitor the use of these services, and to see the performance of our products, we use a standardised format for logging. To ensure scalability, up time monitoring, performance monitoring and error monitoring, some basic data needs to be logged by all applications. This guide contains instructions on how logging is implemented in our software.
 
+For technical details about logging and monitoring in general, including notes on frontend- and backend logging, reporting and dashboarding, Amsterdam officials can view [the general logging and monitoring dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:datapunt:beheren:logging_en_monitoring){:target="_blank"}.
+
 ## Frontend logging
 
 All user statistics are logged in Matomo, formerly named Piwik. This web application monitors visits, unique visitors, visited pages, their urls, downloads, bounce rates, et cetera. It is fairly easy to implement these basic measurements by placing a small piece of Javascript on your site. You can find [instructions](https://developer.matomo.org/guides/tracking-javascript-guide){:target="_blank"} here. 
@@ -17,8 +19,6 @@ There are also possibilities to create custom events for every button click or a
 The log files are kept on our own servers and can be called either through [Matomo's API](https://developer.matomo.org/api-reference/reporting-api){:target="_blank"} or visualised in [Matomo's dashboarding tool](http://analytics.data.amsterdam.nl){:target="_blank"}.
 
 Further technical details and implementation choices specifically about [data.amsterdam.nl](https://data.amsterdam.nl){:target="_blank"} can be viewed by Amsterdam officials on [the city data dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:toepassingen:citydata:piwik){:target="_blank"}.
-
-For technical details about logging and monitoring in general, including notes on frontend- and backend logging, reporting and dashboarding, Amsterdam officials can view [the general logging and monitoring dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:datapunt:beheren:logging_en_monitoring){:target="_blank"}.
 
 ## Backend logging
 On an application level every API call is logged in JSON format. The technical details can be found on [the general logging and monitoring dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:datapunt:beheren:logging_en_monitoring){:target="_blank"}.
