@@ -18,7 +18,7 @@ There are also possibilities to create custom events for every button click or a
 
 The log files are kept on our own servers and can be called either through [Matomo's API](https://developer.matomo.org/api-reference/reporting-api){:target="_blank"} or visualised in [Matomo's dashboarding tool](http://analytics.data.amsterdam.nl){:target="_blank"}.
 
-Further technical details and implementation choices specifically about [data.amsterdam.nl](https://data.amsterdam.nl){:target="_blank"} can be viewed by Amsterdam officials on [the city data dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:toepassingen:citydata:piwik){:target="_blank"}.
+Further technical details and implementation choices specifically about [data.amsterdam.nl](https://data.amsterdam.nl){:target="_blank"} can be viewed by Amsterdam officials on [the sata and information dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:toepassingen:citydata:piwik){:target="_blank"}.
 
 ## Backend logging
 On an application level every API call is logged in JSON format. The technical details can be found on [the general logging and monitoring dokuwiki](https://dokuwiki.datapunt.amsterdam.nl/doku.php?id=start:datapunt:beheren:logging_en_monitoring){:target="_blank"}.

@@ -14,7 +14,7 @@ For more information on how to use, check out the [GitHub Repository: Amsterdam
 ## Demos
 
 * [Simple 360° street views of Amsterdam, Almere and Amstelveen](https://panoviewer.data.amsterdam.nl/demo/) 
-* Integrated in the [Amsterdam City Data Portal](https://data.amsterdam.nl/#?mpb=topografie&mpz=11&mpo=pano::T&mpv=52.3730353:4.8932471&pgn=home&sbf=Cu&sbh=-Lc&sbi=TMX7315120208-000073_pano_0005_000449&sbl=ZRWBl:3JJZP).
+* Integrated in the [Amsterdam Data and Information Portal](https://data.amsterdam.nl/#?mpb=topografie&mpz=11&mpo=pano::T&mpv=52.3730353:4.8932471&pgn=home&sbf=Cu&sbh=-Lc&sbi=TMX7315120208-000073_pano_0005_000449&sbl=ZRWBl:3JJZP).
 
 ## Panorama processing and serving
 

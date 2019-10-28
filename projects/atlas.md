@@ -1,5 +1,5 @@
 ---
-abstract: Interface for the Open Data APIs of Amsterdam City Data
+abstract: Interface for the Open Data APIs of Amsterdam Data and Information
 reusability: 1
 ---
 
@@ -21,14 +21,14 @@ The [Map](https://data.amsterdam.nl/#?lse=T&mpb=topografie&mpz=11&mpfs=T&mpv=52.
 
 * The official City of Amsterdam basemap.
 * Yearly aereal photographs from 2003 up to now.
-* Multiple layers with all of the data from the City Data APIs.
+* Multiple layers with all of the data from the Data en Information APIs.
 * Clicking on a location or object on the map reveals the inspector with all available data.
 * 360° Street View for most objects, [Open Panorama 360° street view](open-panorama.md).
 * Ability to draw a polygon and get the information for all objects inside of it.
 
 ### Developer information
 
-An overview of [API documentation](https://data.amsterdam.nl/#?mpb=topografie&mpz=11&mpv=52.3731081:4.8932945&pgn=content-overzicht&pgt=apis), and an overview of all Amsterdam City Data [REST APIs, their documentation and status](https://api.data.amsterdam.nl/api/).
+An overview of [API documentation](https://data.amsterdam.nl/#?mpb=topografie&mpz=11&mpv=52.3731081:4.8932945&pgn=content-overzicht&pgt=apis), and an overview of all Amsterdam Data and Information [REST APIs, their documentation and status](https://api.data.amsterdam.nl/api/).
 
 ### Catalogue of third party datasets
 
