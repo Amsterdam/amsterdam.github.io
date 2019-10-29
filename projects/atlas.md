@@ -5,7 +5,7 @@ reusability: 1
 
 # Atlas
 
-The interface for all APIs – Open Data and internal – offered by Amsterdam City Data.
+The interface for all APIs – Open Data and internal – offered by Amsterdam Data en Informatie.
 
 Atlas is deployed at [data.amsterdam.nl](https://data.amsterdam.nl).
 
