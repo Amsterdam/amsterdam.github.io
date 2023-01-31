@@ -14,18 +14,20 @@ particular projects using Dockers. It is not meant as an encompassing document b
 ## Install procedure for a project. 
 
 **install docker**
+
 Depending on your OS, find install procedures here:
--for Ubuntu <a href="https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/"</a></br>
--for Mac: https://docs.docker.com/docker-for-mac/install/
--for windows: first check your OS version. For Windows users the 10 Home editions use Docker Toolbox, a Legacy desktop solution intended for older Mac and Windows systems that do not meet the requirements of Docker for Mac and Docker for Windows. It is recommended upgrading to newer applications, if possible and for Windows users to upgrade to PRO. Windows: https://docs.docker.com/toolbox/toolbox_install_windows/ . This toolbox run on Oracle VirtualBox VM and is therefore a lot slower than the following install solution. 
-, Windows 10 PRO users: download Docker for Windows PC Community Edition from the Docker Store.  https://www.docker.com/docker-windows 
+- for Ubuntu: https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+- for Mac: https://docs.docker.com/docker-for-mac/install/
+- for windows: first check your OS version. For Windows users the 10 Home editions use Docker Toolbox, a Legacy desktop solution intended for older Mac and Windows systems that do not meet the requirements of Docker for Mac and Docker for Windows. It is recommended upgrading to newer applications, if possible and for Windows users to upgrade to PRO. 
+  - Windows: https://docs.docker.com/toolbox/toolbox_install_windows/ . This toolbox run on Oracle VirtualBox VM and is therefore a lot slower than the following install solution. 
+  - Windows 10 PRO users: download Docker for Windows PC Community Edition from the Docker Store. https://www.docker.com/docker-windows 
 download and install <a href="https://www.docker.com">docker</a></br>
 
 To get started with Docker, see the official [starting guide](https://docs.docker.com/get-started/)
 
 ## How we use docker and docker-compose
 
-A lot of the [open source code software of the City of Amsterdam]((https://github.com/Amsterdam)) uses docker containers.
+A lot of the [open source code software of the City of Amsterdam](https://github.com/Amsterdam) uses docker containers.
 Seperate tasks are normally organised in seperate dockers.
 
 In general we follow common community guidelines:
@@ -88,7 +90,7 @@ In the docker client run:
 **docker-compose yaml file** 
 The Compose file is a YAML file defining services, networks and volumes. The default path for a Compose file is ./docker-compose.yml.
 
-## Where do we store code**
+## Where do we store code
 
 Every project should share reproducible code. We distinguish between sensitive projects (like for privacy sensitive projects) and 
 projects with data that is not particularly sensitive.
